@@ -13,5 +13,5 @@ animation: rotate 8s infinite both linear;
 
 @keyframes rotate {
 	0%{ transform: rotate3d(1.25, 1.25, 2, 50deg) rotateZ(0deg) scale(0.5); }
-	100%{ transform: rotate3d(1.25, 1.25, 2, 120deg) rotateZ(360deg) scale(0.5); }
+	100%{ transform: rotate3d(1.25, 1.25, 2, 50deg) rotateZ(360deg) scale(0.5); }
 }

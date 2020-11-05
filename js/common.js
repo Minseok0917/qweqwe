@@ -30,8 +30,8 @@ function create_circle(text,repeat=1){
 	document.body.append(circle);
 }
 
-for(let i=1; i<100; i++){
+for(let i=1; i<5; i++){
 	setTimeout(()=>{
-		create_circle(text,3);
-	},i*1000);
+		create_circle(text,8);
+	},1000);
 }
